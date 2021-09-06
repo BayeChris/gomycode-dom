@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   
+    <title>Projet DOM</title>
+</head>
+
+
+<body class="parent1">
+
+
+
+    <div class="parent2">
+
+        <h1><font color="white"> PANIER </font></h1>
+    
+        <center>
+
+            <table class="parent3">
+                <tr>
+                    <div><td>NOM DE L'ARTIClE </td></div>
+                    <div><td>QUANTITE</td></div>
+                    <div><td>PRIX UNITAIRE</td></div>
+                    <div><td>SOUS TOTAL</td></div>
+                </tr>
+                
+                <tr>
+                    <td><div class="namelien"><img src="ressources/images/riz.PNG" alt=""height=90px></div>
+                        <div > <h5>Sac de riz</h5> <h5><a href="">supprimer</a></h5> </div>   
+                    </td>
+                    <td> <button class="btn-moins" style=border-radius:1rem; type="">-</button> <input type="number" id="montant1"> <button class="btn-plus" style=border-radius:1rem; >+</button></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+        
+                <tr>
+                    <td><div class="namelien"><img src="ressources/images/marmite.PNG" alt=""height=90px></div>
+                        <div><h5>marmite</h5> <h5><a href="">supprimer</a></h5> </div>
+                    </td>
+                    <td> <button class="btn-moins" style=border-radius:1rem; type="submit"> - </button> <input type="number"> <button class="btn-plus" style=border-radius:1rem; type="submit"> + </button></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+        
+                <tr>
+                    <td> <input type="text" value="marmite"></td>
+                    <td> <input type="number"> </td>
+                    <td></td>
+                    <td><button style="background-color: rgb(0, 204, 255); border-radius: 0.5rem; " type="submit"> Ajouter un article </button></td>
+                </tr>
+                
+            </table>
+        
+        </center>
+
+
+    </div>
+
+    <div>
+        <CENTER>
+            <H3> <font color="white">TOTAL : </font> <input type="number"> </H3>
+        </CENTER>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

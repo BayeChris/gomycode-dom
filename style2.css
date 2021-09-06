@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent{
+ background-color: #2d142c;
+ display: flex;
+}
+
+.enfant2{
+    background-color: #510a32;
+    height: 500px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 10px solid #c72c41;    
+}
+  
+
+.toggle{
+    width: 60px;
+    transition: .3s ease-in-out;
+}
+
+.enfant3{
+    margin: 20px;
+    position: relative;
+}
+
+.bebe{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 10px;
+   padding: 5px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   cursor: pointer;
+}
+
+.fas, .far{
+    color: white;
+}
+
+
+button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid rgba(165, 160, 160, 0.349);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.fa-angle-double-left{
+    font-size: 1.2rem;
+}
+
+.btnrotate{
+    position: absolute;
+    right: -13px;
+}
+
+
+.bebe:hover{
+    background-color: #c72c41;
+    width: 108%;
+}
+
+
+.btnrotate{
+    border-radius: 1rem; 
+    background-color: #c72c41; 
+}
